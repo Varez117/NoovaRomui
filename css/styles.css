@@ -547,7 +547,7 @@ the website, in dark theme
 }
 
 .product__card:hover .product__img{
-  transform: translateY(-.5rem);
+  transform: translateY(-1rem);
 }
 
 /*=============== QUESTIONS ===============*/
