@@ -821,6 +821,7 @@ the website, in dark theme
   z-index: var(--z-tooltip);
   opacity: .8;
   transition: .4s;
+  margin-bottom: 40px;
 }
 
 .scrollup__icon{
