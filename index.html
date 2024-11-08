@@ -511,6 +511,20 @@
 
         
         <!--=============== MAIN JS ===============-->
+        <script>
+            
+            const images = ["img/item (1).png", "img/itemo (1).png","img/itemo (2).png", "img/item (2).png","img/home.png"]; // Agrega las rutas de tus imágenes
+            let currentIndex = 0;
+            const imgElement = document.querySelector('.home__img');
+
+            function changeImage() {
+                currentIndex = (currentIndex + 1) % images.length;
+                imgElement.src = images[currentIndex];
+            }
+
+            setInterval(changeImage, 3000); // Cambia cada 3 segundos
+
+        </script>
         <script src="js/main.js"></script>
         <script src="//code.tidio.co/vzgtmikijgecift9ducwr5ju4h7acf6y.js" async></script>
     </body>
