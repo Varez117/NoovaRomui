@@ -240,6 +240,7 @@ header h1{
   right: 5%; /* Posición desde el borde derecho */
   z-index: 1000;
   transition: .3s;
+  background-color: var(--container-color);
 }
 
 /* Estilo para el contenedor de los items con scroll */
