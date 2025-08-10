@@ -235,12 +235,13 @@ header h1{
   max-width: 90%; /* Limita el ancho en pantallas pequeñas */
   border-radius: 10px;
   overflow: hidden;
-  position: fixed;
+  position: fixed; /* Fija el carrito en la pantalla */
   top: 100px; /* Posición desde la parte superior */
   right: 5%; /* Posición desde el borde derecho */
   z-index: 1000;
   transition: .3s;
   background-color: var(--container-color);
+  
 }
 
 /* Estilo para el contenedor de los items con scroll */
